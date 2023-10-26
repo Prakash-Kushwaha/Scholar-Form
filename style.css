@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    line-height: 1.5rem;
+    font-family: helvetica;
+}
+
+#container {
+    margin: 0;
+    padding-bottom: 1rem;
+    background: url(./source/book.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: #262f6e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+#heading>span {
+    color: #f00;
+}
+
+#body {
+    margin: 3rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 5px 2px #4d4d4d;
+}
+
+select {
+    height: 2rem;
+}
+
+#heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+textarea {
+    height: 4rem;
+    width: 40%;
+    outline: none;
+}
+
+#section-1>label span {
+    color: #f00;
+}
+
+#section-1>input,
+#section-2>input,
+#section-3>input {
+    margin-top: 1rem;
+    height: 2rem;
+    outline: none;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+
+label span {
+    font-weight: 600;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 1.5rem;
+    border-radius: 3px;
+}
+
+#footer {
+    position: relative;
+    bottom: -1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262f6e;
+    color: #fff;
+}
+
+@media (width < 499px) {
+    body {
+        line-height: 1.2rem;
+
+    }
+
+    #header {
+        height: 3rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    #body {
+        margin: 1rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+}
+
+@media (width > 1400px) {
+    #container {
+        background: url(./source/bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #body {
+        position: relative;
+        right: -50%;
+        width: 40%;
+        box-shadow: 0px 3px 5px 2px #131313;
+    }
+
+}

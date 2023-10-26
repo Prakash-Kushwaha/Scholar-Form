@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <span>XYZ Institute of Technology</span>
+        </div>
+        <div id="body">
+            <form accept-charset='UTF-8'
+                action='https://app.formester.com/forms/b5a69087-7b87-4718-9de1-2e81b3be1932/submissions' method='POST'>
+                <div id="heading">
+                    <h2>SCHOLARSHIP APPLICATION FORM</h2>
+                    <span>Application Deadline - Dec 10, 2023</span>
+                </div>
+                <hr>
+                <p>Read and follow the instructions carefully prior to submitting your application. All winners will be
+                    notified on or before 25 Dec, 2023.</p>
+                <input type="checkbox" required><label for="instructions"><em>I read and understand <a
+                            href="#">instructions</a></em></label><br>
+                <p>If selected, you will be asked for documentation to support the data you provide. Likewise, all
+                    correspondence and award agreements will be generated from the personal information submitted below.
+                    So, please use proper spelling, capitalization and punctuation.</p>
+                <div id="section-1">
+                    <h3>I. Personal Data</h3>
+                    <span>Tell us about yourself</span>
+                    <hr>
+                    <label for="name">Full Name <span>*</span></label>
+                    <input type="text" placeholder="First Name" name="f_name" namerequired>
+                    <input type="text" placeholder="Last Name" name="l_name" required><br>
+                    <label for="date">Birthdate <span>*</span></label>
+                    <input type="date" name="dob" required><br>
+                    <label for="mobile">Mobile No <span>*</span></label>
+                    <input type="text" name="Number" placeholder="00000 00000"><br>
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" name="email" placeholder="ex: myname@example.com" required><br>
+                    <label for="Home Address">Home Address <span>*</span></label>
+                    <input type="text" name="street_address" placeholder="Street Address" required><br>
+                    <input type="text" name="street_address_2" placeholder="Street Address Line 2"><br>
+                    <input type="text" name="city" placeholder="City" required>
+                    <input type="text" name="state" placeholder="State/Province"><br>
+                    <input type="text" name="postal" placeholder="Postal / Zip Code"><br>
+                </div>
+                <p>
+                    <b>Optional Informations</b><br><br>
+
+                    Information regarding gender, ethnic origin and race are optional. The information is requested
+                    for
+                    post-scholarship report generation only and in no way affects your selection for college
+                    scholarship
+                    awards. However, providing this information may increase your opportunities for scholarships
+                    where
+                    donors have asked that priority consideration be given to students meeting certain demographic
+                    criteria (such as minority status, parent's place of employment, area of study, etc.)
+                </p>
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="male"><label for="male" id="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female"><label for="female"
+                    id="female">Female</label><br>
+                <label for="ques1">Are you a US citizen?</label>
+                <input type="radio" id="yes" name="us_citizen" value="yes"><label for="yes" id="yes">Yes</label>
+                <input type="radio" id="no" name="us_citizen" value="no"><label for="no" id="no">No</label><br>
+                <label for="study">Major Area of Study</label>
+                <select name="major_area_of_study" id="areaOfstudy">
+                    <option value="as">Accounting</option>
+                    <option value="aas">Aerospace Technology</option>
+                    <option value="as">Agricultural Science</option>
+                    <option value="aas"> Air Conditioning/Refrigeration</option>
+                    <option value="as">Applied Technology</option>
+                    <option value="art">Art</option>
+                    <option value="aas">Automation/Robotics</option>
+                    <option value="bio">Biological Science</option>
+                    <option value="business">Business</option>
+                    <option value="busi-admin">Business Administration</option>
+                    <option value="chem">Chemistry</option>
+                    <option value="phy">Physics</option>
+                </select><br>
+                <label for="career_obj">What is your career objective?</label><br>
+                <textarea name="career_obj" id="career-obj"></textarea>
+                <div id="section-2">
+                    <h3>II. High School Information</h3>
+                    <hr>
+                    <div>
+                        <label for="graduate">Are you or will you be a July 2023 high school graduate?</label><br>
+                        <input type="radio" id="grad1" name="graduate" value="yes"><label for="grad1">Yes</label>
+                        <input type="radio" id="grad2" name="graduate" value="no"><label for="grad2">No</label>
+                        <p>May 2023 high school graduates are eligible for consideration for summer scholarships in
+                            addition
+                            to fall-spring awards. Accepting a summer award obligates you to attend in the following
+                            fall
+                            and spring.</p>
+                        <label for="award">Would you like to be considered for a summer award?</label><br>
+                        <input type="radio" id="award1" name="award" value="yes"><label for="award1">Yes</label>
+                        <input type="radio" id="award0" name="award" value="no"><label for="award0">No</label><br>
+                    </div>
+
+                    <label for="high_school_attended">High School Attended</label><br>
+                    <input type="text" name="high_school_attended" placeholder="High School Name"><br>
+                    <label for="passout_yr">Year of High School Graduation</label><br>
+                    <input type="text" name="passout_yr" placeholder="Passout Year"><br>
+                    <label for="cgpa">Cumulative GPA</label><br>
+                    <input type="text" name="cgpa" placeholder="You recent cumulative GPA"><br>
+                    <label for="school_activities">High School activities, community activites, volunteer work, honors,
+                        offices
+                        held</label><br>
+                    <textarea name="school_activites"></textarea>
+                </div>
+                <div id="section-3">
+                    <h3>Competitive Exam</h3>
+                    <label for="comp_exam">Name of the Exame you appeared in</label><br>
+                    <input type="text" name="comp_exam"><br>
+                    <label for="exam_yr">Year you took the Exam</label><br>
+                    <input type="text" name="exam_yr"><br>
+                    <label for="exam_result">Result</label><br>
+                    <input type="text" name="exam_result"><br>
+                </div>
+                <div id="section-4">
+                    <h3>Extras</h3>
+                    <hr>
+                    <label for="scholar">Have you ever received a scholarship?</label><br>
+                    <input type="radio" id="scholar1" name="scholarship_rec" value="yes"><label
+                        for="scholar1">Yes</label>
+                    <input type="radio" id="scholar0" name="scholarship_rec" value="no"><label
+                        for="scholar0">No</label><br>
+                    <label for="disability">Do you have a disability?</label><br>
+                    <input type="radio" id="dis1" name="disability" value="yes"><label for="dis1">Yes</label>
+                    <input type="radio" id="dis0" name="disability" value="no"><label for="dis0">No</label><br>
+                    <label for="field">Are you interested and willing to major in Science, Technology, Engineering
+                        or Math?</label><br>
+                    <input type="radio" id="field1" name="field_of_major" value="yes"><label for="field1">Yes</label>
+                    <input type="radio" id="field0" name="field_of_major" value="no"><label for="field0">No</label>
+                </div>
+                <div id="section-5">
+                    <h3>About Yourself</h3>
+                    <hr>
+                    <p>Your essay should be 300-500 words. You should address in your essay: your college goals and
+                        choice of major, what you intend to do with your education, and why a scholarship is
+                        important to you. Include any academic and non-academic accomplishments, personal
+                        characteristics, or experiences that make you uniquely worthy of scholarship consideration.
+                    </p>
+                    <label for="essay"><span>Essay</span></label><br>
+                    <textarea name="essay"></textarea>
+                </div>
+                <div id="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div id="footer"><span>Copyright&copy;2023 | All Rights Reserved</span></div>
+    </div>
+</body>
+
+</html>
